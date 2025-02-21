@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel boot</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="index.js" defer></script>
+        
+</head>
+<body>
+    <div class="navbar">
+        <a class="title">Travelboot Holidays
+        </a>
+
+       <div class="contact">
+        <a class="selectionsBtn">Safaris & Tours <i class="fa-solid fa-chevron-down"></i></a>
+        <a href="">Uganda Tourist Information
+        </a>
+        <a href="">Contact</a>
+        <a href="https://www.facebook.com/travelbootholidays/photos/">Photos</a>
+       </div>
+    </div>
+
+    <div class="selectionBtnOptions">
+        <a href="#gorilla-tours">Gorilla Tours Uganda</a>
+        <a href="#safari-queen">Safari Queen Elizabeth</a>
+        <a href="#uganda-big-5">Uganda Big 5</a>
+        <a href="#uganda-holiday">Uganda Holiday Safari</a>
+        <a href="#uganda-wildlife">Uganda Wildlife Tour</a>
+        <a href="#uganda-leisure">Uganda Wildlife Leisure</a>
+        <a href="#birds-uganda">Birds of Uganda</a>
+        <a href="#wildlife-holiday">Wildlife Holiday Uganda</a>
+        <a href="#primate-watch">Primate Watch Uganda</a>
+        <a href="#visit-uganda">Visit Uganda Safari</a>
+        <a href="#camping-safari">Camping Safari Uganda</a>
+        <a href="#top-highlights">Top Uganda Highlights</a>
+        <a href="#zanzibar-holiday">Zanzibar Holiday</a>
+    </div>
+
+
+
+    <div class="show-case">
+        <video width="100%" autoplay loop muted>
+            <source src="/assets/video/video.mp4" type="video/mp4">
+        </video>
+
+        <div class="book-form">
+            <h4>Book your tour!</h4>
+            <div class="inputs">
+                <div class="upperInputs">
+                    <input type="date" name="" id="" placeholder="Date">
+                    <select name="" id="">
+                        <option value="">Gorilla Tours Uganda</option>
+                        <option value="">Safari Queen Elizabeth</option>
+                        <option value="">Uganda Big 5</option>
+                        <option value="">Uganda Holiday Safari</option>
+                        <option value="">Uganda Wildlife Tour</option>
+                        <option value="">Uganda Wildlife Leisure</option>
+                        <option value="">Birds of Uganda</option>
+                        <option value="">Wildlife Holiday Uganda</option>
+                        <option value="">Primate Watch Uganda</option>
+                        <option value="">Visit Uganda Safari</option>
+                        <option value="">Camping Safari Uganda</option>
+                        <option value="">Top Uganda Highlights</option>
+                        <option value="">zanzibar holiday</option>
+                        
+                    </select>
+        
+                    <select class="numberSelect" name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </div>
+        
+                <div class="lowerInputs">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email address" required> 
+                </div>
+        
+                <div class="book">
+                    <div class="terms">
+                        <input type="checkbox" name="" id="">
+                        <p>Accept <a href="/assets/pdf/terms_and_conditions.pdf" class="paragraph-link" download="MyDocument.pdf">T&C</a></p>
+                    </div>
+                    <button>Book</button>
+                </div>
+    
+            </div>
+    
+        </div>
+    </div>
+
+
+
+    <div class="intro-news">
+     <div class="intro">
+        <div class="intro-heading">
+            <h2>Fun and affordable Uganda holidays</h2>
+        </div>
+        <p class="intro-paragrah-first">
+                Welcome to Travelboot Holidays, your tailor-made holiday tour and travel company. We are a Ugandan owned and registered company with our main offices at Masaka Backpackers and campsite in Masaka, Uganda. Uganda is a multi-cultural country with a fascinating history, distinct landscapes and hundreds of breathtaking nature sceneries and wild life. It’s a perfect destination for memorable holiday. Travel with us for unforgettable holiday experiences to Uganda and selected East African destinations. We do wildlife safaris, honeymoons, business travels, family vacations, adventure trips, company camps, all inclusive vacations, school educational trips, and more.
+        </p>
+
+        <div class="intro-paragrah-second">
+            <p>Whether you want a relaxing week away or a month-long adventure, we shall plan a memorable holiday with you. Tell us what you love, what inspired you and your holiday needs – we’ll plan a bespoke holiday for you. Start your holiday adventure with us today. <a href="mailto:contact@travelbootholidays.com" class="paragraph-link">Contact us</a>.</p>
+        </div>
+
+        
+
+        <div class="google-rating">
+            <h4>"Honest, very knowledgeable guides and excellent services"</h4>
+            <!-- <div class="elfsight-app-777d9a9d-8d42-4562-ae8f-77712b9a51a4" data-elfsight-app-lazy></div> -->
+             <a href="https://www.google.com/search?hl=en-GE&gl=ge&q=Building+2nd+floor+room,+Travelboot+Holidays,+Mpuuga,+71,+8+BroadWay+Rd,+Masaka,+Uganda&ludocid=16617019813439594999&lsig=AB86z5XOVW1C9foYnWdMvz_OrMQ9&hl=en&gl=GE#lrd=0x19d78ec370ee714d:0xe69b837ac5b1e1f7,1"><img class="reviewImg" src="/assets/images/google-review-badge-gmb.png" alt=""></a>
+        </div>
+        </div>  
+
+        <div class="news">
+            <h2>News</h2>
+            
+            <div id="facebook-rating">
+                <iframe 
+                  src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/travelbootholidays?ref=embed_page&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                  width="500" 
+                  height="550" 
+                  style="border:none; overflow:hidden;" 
+                  scrolling="yes" 
+                  frameborder="0" 
+                  allowfullscreen="true"
+                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                </iframe>
+              </div>
+        </div>
+    </div>
+
+    <div class="safari-tours">
+        <h2>Safaris & Tours</h2>
+        <p>These are some of our most popular holiday trips with activities that include safaris to wildlife game parks, gorilla trek safaris, chimpanzees tracking, community and cultural encounters, adventure activities like rafting, mountaineering, camping, zip lining etc and beach holidays. You can choose from a wide range of tours lasting between 1 and 30 days or customized your own holiday. All these tour packages have flexible dates and include mentioned activities meals and free airport pick-up. To book your next adventure, fill in your details in the booking section and we shall send you payment instructions. You also have the option of choosing a more luxury trip in our booking section for an upgrade in the services. We accept deposits to confirm your reservation. Group discounts apply. TravelBoot Holidays; Explore, Book and Share your experiences.</p>
+
+        <div class="packages">
+            <div class="package-div">
+                <h2 class="package-heading" id="gorilla-tours">Gorilla Tours Uganda</h2>
+                <p class="price">3 days &#9733; From US $1245</p>
+                <img src="/assets/images/gorilla_tours_uganda.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/gorilla_tours_uganda.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">This gorilla safari tour takes you to Bwindi Impenetrable National park which is home of most of the world's endangered mountain gorillas for an unforgettable gorilla trekking experience. You will stay in one for the beautiful Rainforest lodge and also trip to Lake Bunyonyi Africa's second deepest lake. This is a guided trip that includes everything from Gorilla permits, all meals, 4x4 safari vehicle and accommodation for 2 nights. Download itinerary for details.</p>
+            </div>
+            <div class="package-div">
+                <h2 class="package-heading" id="safari-queen">Safari Queen Elizabeth</h2>
+                <p class="price">3 days &#9733; From US $860</p>
+                <img src="/assets/images/safari_queen_elizabeth.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/safari_queen_elizabeth.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">This Uganda tour features takes us to Queen Elizabeth Park located at the base of the majestic Rwenzori Mountain. The park features animals like lions, leopards, elephants, hippos, buffalos, warthogs and many different species of antelopes, reptiles, and birds. Queens Park is on top of the 10 best tourist attractions in Uganda for its beauty and wonders. Join a group for much cheaper rates.</p>
+            </div>
+            <div class="package-div">
+                <h2 class="package-heading" id="uganda-big-5">Uganda Big 5
+                </h2>
+                <p class="price">4 days &#9733; From US $1010</p>
+                <img src="/assets/images/uganda_big_5.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/uganda_big_5.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">This Uganda safari tour offers you a great chance to see the big 5: lions, leopards, elephants, rhinoceros, and buffaloes. The safari tour takes you to Murchison falls where you meet the world's longest river-river Nile squeezing through a narrow gauge. You will have a chance to stay in Zziwa rhino sanctuary where you will have chance track rhinos in Uganda and also have a swamp walk where you will meet some some of the great birds like the shoe Bill.</p>
+            </div>
+            <div class="package-div">
+                <h2 class="package-heading" id="uganda-holiday">Uganda Holiday Safari</h2>
+                <p class="price">7 days &#9733; From US $2275</p>
+                <img src="/assets/images/uganda_holiday_safari.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/uganda_holiday_safari.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">This great Uganda holiday tour package includes a safari, gorilla tracking, short hikes and relaxation at sand beaches. The 7 days Uganda tour package includes safari tour where will have a chance to see lions, leopards, Elephants, buffaloes, Uganda gorillas, varying species of antelopes, reptiles, and birds. The tour takes you through Ishasha sector known for Uganda's tree climbing lions and also gives you a chance for a community/ culture tour to the Bwata cultural pygmies in Lake Bunyonyi.</p>
+            </div>
+            <div class="package-div">
+                <h2 class="package-heading" id="uganda-wildlife">Uganda Wildlife Tour</h2>
+                <p class="price">9 days &#9733; From US $2275</p>
+                <img src="/assets/images/uganda_wildlife_tour.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/uganda_wildlife_tour.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">Uganda's national parks have vast savannas featuring grasslands and great lakes for exceptional game drives tours and nature walks and hikes. This \r\n Safari Uganda tour gives you the chance to visit for game parks featuring the big five safari animals. The Uganda tour includes a Kibaale chimpanzee trekking safari where you will enjoy a full day chimpanzee habituation experience and sightseeing of other Uganda primates and birds. You will also visit lake Mburo the best place to see Zebras in Uganda.</p>
+            </div>
+            <div class="package-div">
+                <h2 class="package-heading" id="uganda-leisure">Uganda Wildlife Leisure</h2>
+                <p class="price">10 days &#9733; From US $1660</p>
+                <img src="/assets/images/uganda_wildlife_leisure.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/uganda_wildlife_leisure.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">Adventure and leisure package! This safari Uganda tour takes you to 4 top Uganda tourist destinations. The safari road trip includes wildlife game drives to 2 Uganda game parks with a great chance to spot lions during the tree climbing Lions Uganda safari. We enjoy a night in a one beautiful ishasha's wilderness camp and also explore Lake Bunyonyi on this great Uganda discovery tour where we encounter an unequaled beauty and water activities on this Uganda's Deepest Lake. We also visit Ssese islands a lush of 84 islands on Lake Victoria and have a great stay in a beautiful island beach hotel.</p>
+            </div>
+            <div class="package-div">
+                <h2 class="package-heading" id="birds-uganda">Birds of Uganda</h2>
+                <p class="price">14 days &#9733; From US $3505</p>
+                <img src="/assets/images/birds_of_uganda.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/birds_of_uganda.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">Uganda is among the 10 top destinations for bird watching in Africa gifted with over 1000 species of birds like shoebill, standard-winged nightjar, the great blue turaco, black-breasted barbet and many more. This bird Uganda safaris takes you through Uganda's rain forests, swamps and great lakes safari where you will sport many species of birds in Uganda. This safari Uganda tour gives you a chance to gorilla trek in Uganda,chimpanzee safari trek, wildlife game safari, great lake safari boat cruises, rhino track in Uganda Ziwa rhino sactuary and swamp walks for a great bird watching experience.</p>
+            </div>
+            <div class="package-div">
+                <h2 class="package-heading" id="wildlife-holiday">Wildlife Holiday Uganda</h2>
+                <p class="price">20 days &#9733; From US $5270</p>
+                <img src="/assets/images/wildlife_holiday_uganda.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/wildlife_holiday_uganda.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">This insight Uganda safari gives you a chance to visit Uganda's top tourist destinations. You will visit the source of the Nile, 5 top national parks In Uganda, enjoy bicycle ride and nature walks in the park, make a community and cultural tour in Uganda and enjoy a great time relaxing very beautiful islands beach hotels. This Uganda holiday tour also includes very breathtaking water river Nile water activities like rafting, gorilla tour and wildlife game watching.</p>
+            </div>
+            <div class="package-div">
+                <h2 class="package-heading" id="primate-watch">Primate Watch Uganda</h2>
+                <p class="price">5 days &#9733; From US $2140</p>
+                <img src="/assets/images/primate_watch_uganda.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/primate_watch_uganda.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">This Uganda wildlife Safari offers you an opportunity to watch Gorillas and chimps, our closest relatives in the rainforests of Uganda. You will visit Bwindi Impenetrable national park home of half the world's endangered mountain gorillas and kibaale forest home of most of Uganda's chimps. This interesting chimps and gorilla safari experience also offers you a night at Lake Bunyonyi renown of its great beauty and the deepest lake in Africa. You will learn about the famous punishment island and the Batwa pygmies culture.</p>
+            </div>
+            <div class="package-div">
+                <h2 class="package-heading" id="visit-uganda">Visit Uganda Safari</h2>
+                <p class="price">16 days &#9733; From US $4980</p>
+                <img src="/assets/images/visit_uganda_safari.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/visit_uganda_safari.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">Uganda's magical wilderness and stunning beauty are one of the major reasons for the tourist visit Uganda safari. This tour brings you to the best of Uganda's Safari highlights. You will see the great lakes of Uganda, the source of the Longest river in the world, have Nile water activity, gorilla & chimp track, visit 6 of Uganda's popular wildlife parks and enjoy leisure. Its a combination of safari and adventure in Uganda.</p>
+            </div>
+            <div class="package-div">
+                <h2 class="package-heading" id="camping-safari">Camping Safari Uganda</h2>
+                <p class="price">15 days &#9733; From US $3550</p>
+                <img src="/assets/images/camping_safari_uganda.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/camping_safari_uganda.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">This safari offers you a much more adventurous journey whilst enjoying much more quality time with family, nice and affordable camping facilities and much more nature exploration. You will enjoy a great road trip in Uganda without hassle for accommodation since many Campsites do not require any advance arrangements. The camping package comes with fully equipped camping gear- tents, sleeping bag and camping supplies. You can self-drive you on this safari or have one of our expert guides and chef guide your memorable Uganda experience.</p>
+            </div>
+            <div class="package-div">
+                <h2 class="package-heading" id="top-highlights">Top Uganda Highlights</h2>
+                <p class="price">12 days &#9733; From US $3030</p>
+                <img src="/assets/images/top_uganda_highlights.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/top_uganda_highlights.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">Designed with the top 5 tourist destination of Uganda, this tour shows you the beauty of Uganda in the safari, leisure and holiday travel. It includes water activities, wildlife park game drives, boat rides, beach holiday and the famous primates ( gorillas and Chimpanzees) Uganda is very proud of. The package includes everything from airport pick up, accommodation, all mentioned activities, all meals, and guaranteed gorilla permits.</p>
+            </div>
+            <div class="package-div">
+                <h2 class="package-heading" id="zanzibar-holiday">zanzibar holiday</h2>
+                <p class="price">5 days &#9733; From US $2030</p>
+                <img src="/assets/images/zanzibar_holiday.jpg" alt="">
+                <button class="select-button">Select</button>
+                <a href="./assets/pdf/zanzibar_holiday.pdf" class="pdf-download">Download detailed itinerary(PDF)</a>
+                <p class="summary">Zanzibar is an island in the Indian ocean steeped in culture and history – It's an idyllic private island featuring luxurious accommodation, breathtaking scenery, and rich marine diversity. It's a great destination for a perfect beach holiday.</p>
+            </div>
+        </div>
+        <p class="contact-paragraph-package">These packages are examples. We reserve the right to accept, reject and modify booking requests. For more information, larger travel groups with over 7 participants, and for planning a tailored tour, please <a href="mailto:contact@travelbootholidays.com" class="paragraph-link">contact us</a> and we will create your dream package together.</p>
+    </div>
+
+    <div class="transport-info">
+        <h2>Uganda Tourist Information</h2>
+        <p>Uganda is located in East Africa, and borders Rwanda, Kenya, Democratic Republic of Congo, and Tanzania. And Uganda is one of six African countries that lie on the equator. Kampala is Uganda's capital city and its top commercial capital. The country official language is English since it was colonies by the British. The country prides itself hundred tourist attraction and these include gorillas, chimpanzees, great lakes, the source of the river Nile, forests, national parks with great savannahs and plains, the equator, snow capped mountains waterfalls and many more. Tourists have a huge range of activities to do whilst in the country. These include game drives, chimpanzee tracking, gorilla tracking, leisure holidays on beaches, water activities like rafting bungee and kayaks, cultural tour, food tour, mountain climbing and many more. Uganda is among the most hospitable countries in the world and its very common for people to always wave and smile at tourists especially in the rural areas. All white people are referred to as “Mzungu” but it comes with no single degree of racism. Do not be offended.</p>
+
+        <h1 class="heading">Transportation</h1>
+        <p>Flying to and from Uganda is very easy. Entebbe Airport is the international airport of Uganda situated roughly 40 kilometers from Kampala the capital city. The airport receives planes from all over the world and the most common ones include <a href = "https://www.ethiopianairlines.com/ke" class="paragraph-link">Ethiopian Airways</a>,<a href="https://www.klm.com/" class="paragraph-link"> KLM</a>, <a href="https://www.brusselsairlines.com/ke/en/homepage" class="paragraph-link"> Brussels Airlines</a>,<a href="https://www.kenya-airways.com/en-ke/" class="paragraph-link"> Kenya Airways</a>,<a href="https://www.turkishairlines.com/" class="paragraph-link"> Turkish Airlines</a>,<a href="https://www.britishairways.com/travel/home/public/en_ke" class="paragraph-link"> British Airways</a>, Delta Airways and more so its very easy to choose an flight to Uganda. Uganda has domestic flights from the airport connecting to top tourist destination within the country, these include from Entebbe to Kisoro and Kihihi air strips (Bwindi impenetrable forest national park), Kasese airstrip in the west, Pakuba in Queens park, Chobe in Murchison national park, Apoka in Kidepo valley park.</p>
+
+        <h3>Road transport</h3>
+        <p>Road transport is the commonest means of transportation throughout the country. Currently there is are good roads and routes to various tourist destinations in the country. More still, road transport crosses over borders to the nearby countries such as Rwanda, Kenya and Tanzania. Road transport involves the use of:</p>
+
+        <ul>
+            <li>Public buses operate daily and take passengers to various cities/town centers in the country but tourist may need to rent a special taxi for the cities to the various destinations. The common bus companies in the country include Global to the west, Link to the west and central, Gaaga to the north, Star to the west and southwest. There are cross country buses to Kenya like Scania, Mash Poa, Modern etc. and to Rwanda like Trinity and Volcano, to Tanzania like Friends, Lexus, Modern etc.</li>
+            
+            <li>Taxis carry 14 passengers from Kampala to various locations in the country and they are marked with a blue stip. The set off at any time from the taxi parks which are easy to located on your walk through the capital.</li>
+
+            <li>Boda-Bodas (motorbikes for hire) are found all over the country and one can stop bodaboda at any point and negotiate carriage to a given location. Once you board a boda, there are no stopovers until you reach the final destination. This makes it a very convenient means of transportation for anyone in a time rush to reach your destination. They are ideal for short distance travels around the cities or for distances below 10km in rural areas. For safety, tourist are advised to use boda-bodas operated by companies. These include, Uber, Bolt and safe Boda. Download their app and order your ride.</li>
+
+            <li>The country has a couple special hire taxi companies like Uber, Taxify, Green Cab, Yellow Cab etc. Just download the app and text your taxi to come pick your from your location to your destination. They are safe and reliable.</li>
+        </ul>
+
+        <h3>Water transport</h3>
+        <p>The most common water transport means include ferries, ships and boats. Ferries and ship SSese island and boats to top tourist destinations islands like SSese islands, Ngamba islands, Lake Bunyonyi, leisure islands on the Nile and in lake Victoria.</p>
+
+        <h1 class="heading">Tourist attractions</h1>
+        <p>Uganda is blessed with a number of tourist attractions that range from natural resources, culture and traditions and entertainments. Top Natural attractions consist of natural game parks, rivers, crater lakes, fresh water lakes, water falls, savannahs, mountains, caves and many more.
+
+            The top cultural attractions are Kasubi tombs, Namugongo shrine, Bigo bya Mugenyi, Baker`s Fort, Karambi Tombs, Sezibwa falls, Nakayima tree, Nkokonjeru Tombs, Nyero rock paintings, Naggalabi-Buddo Coronation site, Wamala Tombs and Igongo cultural centre.
+            
+            The top religious attractions are cathedrals, the Bahai Temple, old Kampala Mosque and Uganda Martyrs Shrine Namugongo.
+            
+            The most important tourist attractions in the country are the National parks for gorilla tracking, game drives, mountain climbing, water activities and leisure. Here are the top tourist park destinations.</p>
+
+            <h3>Mgahinga gorilla national park</h3>
+            <p>The park was created to protect the rare mountain gorillas that inhabit its dense forests which is the main attractions are the endangered mountain gorillas and golden monkeys. The main activities in this park is gorilla tracking and monkey tracking etc. It also has many other animals and birds which interest the tourist during the gorilla tracking expedition. To access the park, one needs a gorilla permit that currently goes for $700. Tourist need to get these through travel companies and tour operators for ease. Or one can buy this directly from the Uganda wildlife authority offices. Talk to us for this permit and arrangement for you this trip.</p>
+
+            <h3>Lake Mburo national park</h3>
+            <p>Lake Mburo is a very small park is very known for the biggest herd of zebras, natural walks and cycling safaris. It was named after the lake Mburo which is offers great chances to tourist to watch birds and hippos while on a boat cruise. The park is only 3 hours from Kampala making it ideal for short safaris for tourist in a bit or a rush. Activities in this park include game drives. Night safari (game drive) with high chances of seeing leopards. Nature walks where one can to get close to the animals, horseback riding, bicycle safari and boat trip on Lake Mburo. Animal species to expect in the park include zebra, warthogs, hippos, giraffes, forest hogs, buffalos and many species of antelopes and birds. To access the park one travel form Kampala towards Mbarara and you will need an entry permit of US $40 per person per day which can be currently purchase on the main gate entrance.</p>
+
+            <h3>Kibale national park</h3>
+            <p>This forest park is very renown for its rich ecosystems in the whole of Africa. The park is Uganda’s top destination for chimpanzee tracking. The park features animals like chimpanzee, many monkey species, bush pig, giant forest hog, bats and rodents and many species of birds. Activities in the park Chimpanzee trekking. Chimpanzee habituation. Nature walks and hiking. Birding in Kibale forest etc. To access the park, tourist need a chimpanzee permit which can be bought from the wildlife Authority Headquaters in Kampala or through your travel operator in the country. Access to the chimps need early booking since permits can get sold out. The park is located in Kibaale district accesed via Kampla-Fortportal of Kampala-Kamwenge route.</p>
+
+            <h3>Queen Elizabeth national park</h3>
+            <p>Queen Elizabeth National Park in western Uganda is Uganda’s most visited Park and was named after Queen Elizabeth II of England. The park’s diverse ecosystems which include, savanna, humid forests, crater lakes, fresh water lakes, fertile wetlands and over 600 species of birds. the park is also Uganda’s top tourist destination due its its melody of wonders. The main activities in the park are game drives, bird watching, boat trip/launch cruise and Chimpanzee trekking. To access the park, one needs a permit costing USD $40 per day per person and this can be purchased at the designated entry gates of the park or from Uganda Wildlife authority offices in Kampala. You can also use your tour operator to get you this permit through the different safari packages offered. You can access the park via Kampala-Kasese route.</p>
+
+            <h3>Murchison falls national park</h3>
+            <p>Murchison Falls National Park is in northern Uganda is the largest park in the country. It measures approximately 3,840 square kilometers. The park is hosting 76 species of mammals and 451 birds. Activities to have in the park include game drives, boat cruise, Bird watching and nature walks. To access the park, one needs a permit costing US $40 per day per person and this can be purchased at the designated entry gates of the park or from Uganda Wildlife authority offices in Kampala. The park is about 5 hours from Kampala and is a great destination for seeing the Big five.</p>
+
+            <h3>Bwindi impenetrable national park</h3>
+            <p>Bwindi Impenetrable National Park in southwestern Uganda is very known for its mountain gorillas and its one of Uganda’s oldest diverse ecosytems which dates back over 25,000 years. The forest has over 400 species of plants and an estimate of 320 mountain gorillas-Roughly half of the world’s population existing population. Its also features over 350 species of birds and over 120 mammals. The main activities in the park is definitely gorilla tracking but tourist can also have culture encounters and bird watching. To access the park, one needs a gorilla permit that currently goes for $700. Tourist need to get these through travel companies and tour operators for ease. Depending on the season, gorilla permits can get sold out so one needs to acquire a permit early enough. Reach the park via Kampala- Kabaale routes. Talk to us for this permit and arrangement for you this trip.</p>
+
+            <h3>Rwenzori mountain national park</h3>
+            <p>The Rwenzoris are one of the top climbing destinations in Africa. Some peaks of the Rwenzori are the third highest point in Africa, The main Activities are mountain climbing and Hiking and Nature Walks, and Birding Tourist can have a chance to have activities from one day 14 days depending on how high one wishes to climb. Since mountain is a very risky and energetic adventure, its important for tourist to declare their health status before the climbing. Also one needs to carry along hiking shoes and other climbing and rain gear for the hike. Whist on the hike one will also encounter lost of birds, butter flies and animals like monkey. To access the park one needs a permit which is prices according to the activities one wishes to have. Permits are arranged by the rwenzori mountain climbing services company. Find out more at <a href="https://www.rwenzorimountaineeringservices.com/" class="paragraph-link">www.rwenzorimountaineeringservices.com</a>. This company supplies the gears to the tourist and has training climbing and tracking experts in the field. Your travel agency will make arrangements with this company for your access to the park.</p>
+
+            <h3>Semuliki national park</h3>
+            <p>Semuliki park is unique due to its tropical lowland forest, denseness and flat. The park features animals like, buffalo, leopard, civet, bush baby and flying squirrels etc. Activities in the park include Birding. Game drive. Nature walks. Mountain hiking. To access the park, one needs a permit costing USD $40 per day per person and this can be purchased at the designated entry gates of the park or from Uganda Wildlife authority offices in Kampala.</p>
+
+            <h3>Kidepo national park</h3>
+            <p>Located in North East Uganda, the park is known for its vast savannah. The park is over 10hours drive from Kampala so tourist should be prepared for long drives. Activities on this park trip include Safari game drive. Birdwatching. Cultural encounters Hikes and nature walks. To access the park, one needs a permit costing USD $40 per day per person and this can be purchased at the designated entry gates of the park or from Uganda Wildlife authority offices in Kampala. Let us help you to get the entry permits.</p>
+
+            <h3>Uganda wildlife authority and park fees</h3>
+            <p>Uganda wildlife authority is a government organization in charge of managing wildlife and conservation. It's located in Kamyokya Plot 7, Kira road, Kampala, Uganda. They offer tourist information and sell the necessary permits for activities. For more information, visit <a class="paragraph-link" href="https://web.archive.org/web/20231221080152/https://ugandawildlife.org/">www.ugandawildlife.org</a>.
+
+             Currently, park entry fees for wildlife parks are US $40 per day per person, US $200 for chimpanzee trecking and US $700 for gorilla trecking. There is a discount for children, East African residents, and for Non-east African residents. In many national parks, boat rides are charged US $30 per person and there is a charge for entry of each car depending on the size.</p>
+
+             <h1 class="heading">Culture, currency, food, religion and visas</h1>
+             <p>Ugandan culture is highly based on these ethic groups and tribes. Different tribes speak different languages but almost everywhere you can find someone who can speak English. Various tribes have different cultural norms and some behavioral differences but these do not differ much. As a tourist you may have a chance to witness this during cultural occasions and performances. Its always amazing learning about our local cultures and you shouldn’t miss any change to learn for this.
+
+             </p>
+
+             <h3>Currency</h3>
+             <p>The Uganda shilling is the country’s currency. The country uses other currencies but US dollar and Euro are the most common. Other common international currencies include the Indian dinar, Canadian Dollar, Yuan, Kenyan shilling and Tanzania shilling. For tourist its very easy to exchange money on arrival at the airport, in local banks and forex bureaus. Depending on where your coming form in the world, its better to carry along Euros or US dollars to be on the safer side and your money card.
+
+             </p>
+
+             <h3>Food</h3>
+             <p>The biggest part of the population lives in rural areas producing their own food. People eat three meals in the day which include breakfast mainly tea or porridge lunch and supper which are full plate meals that mostly consist of solid food and a sauce. Popular dishes include matooke (steamed/boiled green bananas), rice millet, posho (maize floor) cassava, sweet potatoes, Irish potatoes, yams etc. The country also plenty of fruits including delicious Jackfruit</p>
+
+             <h3>Religion</h3>
+             <p>Uganda is a very religious country with visible attendances for/to prayer and worship. Over 70% of the population is Christians, Islam follows with about 13% and others belong to traditional worship beliefs, new exotic religions and some to none. The country has freedom to religion and tourist enjoys this freedom to pray and assist various churches and mosques in any charitable acts they may wish.</p>
+
+             <h3>Visas</h3>
+             <p>Uganda visa can be bought online or on your arrival at Entebbe International Airport. Its sometimes more convenient to purchase the visa on arrival. The Uganda visa is currently at US $50 for single entry, US $100 for multiple entry, and US $100 for East African visa. Please note, your passport must be valid for the next 6 months for the date of your visa application. Find out more about the Uganda Visas from <a class="paragraph-link" href="https://www.immigration.go.ug/">www.immigration.go.ug</a>.</p>
+
+             <h1 class="heading">Safety, vaccinations, accommodation, and what to take with you</h1>
+             <p>Uganda is generally safe and stable throughout the country. Its important though to take precautions while traveling alone, at night and in cities. Do not carry a lot of cash with you and valuables. In case of any emergency report the case to the police, to your embassy or you may call any tour company for help and directions.
+
+            In Uganda, visa and master cards are very common and are accepted my many banks, unlike debit and credit cards. You should note though, card transactions aren’t much used in the country so you may need to withdraw cash for your payments. Visa, MasterCard, and credit cards can be used to access money in many bank ATMs. The country is only starting to adopt cashless payment systems.</p>
+
+            <h3>Vaccinations</h3>
+            <p>The yellow fever vaccine is a must so carry along your immunization certificate. Other important vaccinations include Hepatitis A and B, tetanus, and meningitis.</p>
+
+            <h3>Accommodation</h3>
+            <p>Uganda has a variety of facilities for example hotels, cottages, guesthouses, inns, and motels. But tourist lodges and hotels are mostly used by tourists. Hotels are ranked one star to 5 stars. During your safari lodges and safari camps are highly recommended because they give tourists a touch of wilderness experience. Talk to us for advice on accommodations and ease to do your activities whilst on safari. We collaborate with <a class="paragraph-link" href="https://naturelodgesuganda.com/">naturelodgesuganda.com</a> since they have some great safari camps in all the major National parks in Uganda, and with <a class="paragraph-link" href="https://www.masakahostels.com/">Masaka Backpackers </a>Hostel.</p>
+
+            <h3>What to bring on your journey to Uganda</h3>
+            <p>Include a rain Jacket and special gear like books for special activities. Talk to your tour agent to inform you about the necessary gear you require for your particular safari activities. Otherwise carry along items like binoculars, a camera, sun screen, mosquito repellant, enough clothes, electronics, a money waist bag, a phone, etc. Carry along your driver's license if you’re planning to drive In Uganda, your medication with vaccination records.
+
+            For a safari, take insect repellent, sunscreen, safari shoes for hiking on top of your comfortable summer shoes a headlamp, A good camera, binoculars, prescriptive and preventive medication, clothes (including a rain jacket for your rain forest trecking), a hand bag, electronics like your phone and their respective chargers. Please note that electricity plugs may differ from the ones you use back at home. We are using British type G plugs with three rectangular pins in a triangular pattern supplying 240 volts and 50 Hz.</p>
+
+            <h1 class="heading">Steps to planning your trip to Africa</h1>
+            
+            <ol>
+                <li>Choose a destination: East Africa is your best bet for stunning wildlife and natural beauty. Southern Africa follows on the list. For a great experience with wildlife, choose Tanzania and for a great combination of wildlife, gorilla tracking, and nature beauty, choose Uganda.</li>
+
+                <li>Decision making: Make a decision between guided travel of a self-drive safari experience. We highly recommend guide safaris for the best experience. You will learn a lot from your tour guide and go to places you would rather be afraid to travel to unguided. If you wish to drive your own adventure, www.roadtripafrica.com offers you a good 4X4 and all the camping gear you will need.
+                
+                For guided travel, its way easier to select from one of the set travel plans as displayed on travel sites and customize it to your liking. You can also tell your travel operator your favorite destination and you together tailor-make your holiday travels. Discuss your budget and make sure you fully assess what you get from the offer given to you. Good travel operators will always tell you about the nature of accommodation, activities, time, meals, and all exclusions in your budget. Make free inquiries by emailing <a class="paragraph-link" href="mailto:contact@travelbootholidays.com">contact@travelbootholiday.com</a>
+                </li>
+
+                <li>Select the best time for travel. You can always travel to Africa any time of the year but the best time for wildlife travel is July to November since this is a dry season. Since this is a peak season for East African safari travel, you have to book your Uganda gorilla tickets way in time for your trekking this season.</li>
+
+                <li>Decide on how long you will stay in Africa.
+                    Life in Africa is quite different from that in the Western world, there is plenty to see, do, and learn. Unless otherwise spend a week and more on your holiday. Save a bunch while enjoying your stay by volunteering (find out more here at <a   class ="paragraph-link" href="https://www.helpkidsuganda.com/">www.helpkidsuganda</a>.com) for Uganda volunteering, stay in an AIrB&B place or Backpackers Hotel, and do some cheap activities like city tours. Plan your stay with your tour operator and seek such information about the length of your stay.x</li>
+                
+                <li>Purchase a visa: in many African countries, the visa acquisition process is a very short one. You can either buy it online or at the airport. To avoid long queues on your arrival, we recommend you purchase the visa online. Please take caution on the duration of the visa, many African countries offer 3 months for tourist visas but some offer just one month. East Africa offers offers its visa at $100 which makes it a good deal for entry into all 5 East African countries.</li>
+
+                <li>Book your air ticket: have your tour agent book a flight for you and we highly recommend direct flights or flights with few stops. Take caution on very cheap flights, some involve many stop-through countries that will require you to purchase a visa to pass through. See for information from your agent.</li>
+
+                <li>Learn a bit about your African destination: your will have an amazing holiday when you are informed a bit about your destination. Great tour operators will always tell you more about the country and when you have questions within the chart, you will learn a lot. It's also wise to know what to do when the unexpected happens. You can always find your way through.</li>
+
+                <li>Explore Uganda! We hope you will choose and recommend Uganda for its beauty, culture, wildfire, and safety.</li>
+            </ol>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="contact-directions-payments">
+            <h2>Contact us</h2>
+            <p>Call/Message/WhatsApp +256 700 272755</p>
+            <p>Email contact@travelbootholidays.com</p>
+            <p>P.O. Box 834, Masaka, Uganda</p>
+
+            <h2>Directions</h2>
+            <p>Masaka Backpackers, Gayaza, Bukoba Road, Masaka, Uganda</p>
+            <p>GPS-coordinates: -0.362742,31.71467</p>
+
+            <h2>Payments and currencies</h2>
+            <p>We accept Uganda Shilling (UGX), Euros (EUR) and US Dollars (USD) in cash, and PayPal/credit card transaction in advance</p>
+            <p>Company no. 80020003259402</p>
+        </div>
+        
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1894.4005815421585!2d31.71516781417243!3d-0.3632807544540027!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d78ec370ee714d%3A0xe69b837ac5b1e1f7!2sTravelboot%20Holidays!5e0!3m2!1sen!2sge!4v1740136208042!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    
+    <div class="floatingfooter">
+        <a href="tel:+256700272755" class="paragraph-link "><i class="fa-brands fa-whatsapp footer-link"></i> +256 700 272755</a>
+        <a href="mailto:contact@travelbootholidays.com" class="paragraph-link "><i class="fa-solid fa-envelope footer-link"></i> contact@travelbootholidays.com</a>
+        <a href="" class="paragraph-link">Share <i class="fa-solid fa-share footer-link"></i></a>
+        
+    </div>
+
+    <button id="scrollToTop">
+        ^
+      </button>
+    
+
+</body>
+</html>
